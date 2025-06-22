@@ -1,9 +1,9 @@
 FROM ubuntu:latest
 
-MAINTAINER Greg Ewing (https://github.com/gregewing)
+MAINTAINER peanutyost (https://github.com/peanutyost)
 
 ENV LANG=C.UTF-8 DEBIAN_FRONTEND=noninteractive
-ENV TZ=Europe/London
+ENV TZ=america-chicago
 
 
 COPY scripts /var/spool/apt-mirror/
