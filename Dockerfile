@@ -32,6 +32,6 @@ RUN echo \
 
 EXPOSE 80 
 
-VOLUME ["/var/spool/apt-mirror"]
+VOLUME ["/var/spool/apt-mirror/mirror"]
 
 ENTRYPOINT ["/var/spool/apt-mirror/entrypoint.sh"]
