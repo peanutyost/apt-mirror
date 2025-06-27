@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ratelimit=1mbit     #see 'tc' man page for which suffixes to use.
-burstlimit=1mbit    #see 'tc' man page for which suffixes to use.
+ratelimit=100mbit     #see 'tc' man page for which suffixes to use.
+burstlimit=500mbit    #see 'tc' man page for which suffixes to use.
 
 echo setting rate limit
 
